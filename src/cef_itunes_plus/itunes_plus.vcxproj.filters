@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{dda37b2f-42d1-4409-977a-8a0e55175de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\img">
+      <UniqueIdentifier>{34c745ba-10f0-4f48-b5d0-da736b5c98f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="https.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gtk_window_core.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itunes_dom_node_visitor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itunes_web_render_process.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itunes_calc_services.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_part_form_data.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itunes_artificial_event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="https.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gtk_window_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_dom_node_visitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_web_render_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_calc_services.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_part_form_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_registed_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_artificial_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itunes_web_browser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\resouces\img\AppChina.ico">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="itunes_plus.rc">
+      <Filter>Source Files\img</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
